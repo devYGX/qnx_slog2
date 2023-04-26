@@ -1,0 +1,1 @@
+qcc -lang-c++ -Vgcc_ntoaarch64le -g -o qnx_slog_test  test.cpp -I ./  -L./ -lslog2
