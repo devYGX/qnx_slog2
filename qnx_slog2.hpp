@@ -69,7 +69,7 @@ private:
             log_level = SLOG2_INFO;
             break;
         case LOG_DEBUG:
-            log_level = SLOG2_DEBUG1;
+            log_level = SLOG2_DEBUG1 - 1;
             break;
         }
         return log_level;   
